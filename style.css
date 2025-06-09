@@ -66,18 +66,35 @@ body {
 }
 
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 5fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 5fr;
 }
 
 .sidebar {
-    grid-column: 1 / 2;
-    grid-row: 1/3;
+  background-color: #1992d4;
+  color: #ffffff;
+  grid-column: 1 / 2;
+  grid-row: 1/3;
+  padding-left: 15px;
 }
 
 .sidebar .brand {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  height: 50px;
 }
 
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sidebar ul svg {
+  height: 16px;
+  width: 16px;
+  fill: white;
+}
