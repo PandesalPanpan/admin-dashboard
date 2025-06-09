@@ -67,7 +67,7 @@ body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -90,11 +90,13 @@ body {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 6fr;
+  column-gap: 15px;
 }
 
 .sidebar ul svg {
   height: 16px;
   width: 16px;
   fill: white;
+  justify-self: end;
 }
