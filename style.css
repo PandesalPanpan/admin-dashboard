@@ -79,24 +79,30 @@ body {
   padding-left: 15px;
 }
 
-.sidebar .brand {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 50px;
-}
-
 .sidebar ul {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 6fr;
-  column-gap: 15px;
 }
 
-.sidebar ul svg {
+.sidebar .dashboard {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 25px 0px 25px 0px;
+}
+
+.sidebar .nav {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sidebar .settings {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sidebar svg {
   height: 16px;
   width: 16px;
   fill: white;
-  justify-self: end;
 }
