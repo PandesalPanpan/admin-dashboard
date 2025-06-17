@@ -85,6 +85,12 @@ body {
   margin: 0 0 0 15px;
 }
 
+.dashboard .logo-brand{
+  height: 32px;
+  width: 32px;
+  fill: white;
+}
+
 /* This adds gaps vertically */
 .sidebar .section {
   display: flex;
@@ -97,8 +103,9 @@ body {
 .sidebar li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .sidebar svg {
