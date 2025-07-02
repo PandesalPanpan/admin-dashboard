@@ -97,6 +97,14 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1.5fr 1fr;
+  height: 10vh; /* This seems to have no full effect */
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
 }
 
 #search-icon {
@@ -183,6 +191,18 @@ body {
 .avatar-2 {
   height: 30px;
   width: 40px;
+}
+
+.main {
+  margin-top: 40px; /* Quick Fix overlapping on top */
+}
+
+#search-bar {
+  flex: 1;
+  background-color: #e2e8f0;
+  border: 5px solid #e2e8f0;
+  border-radius: 20px;
+  outline: none;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
