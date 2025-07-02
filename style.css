@@ -150,6 +150,40 @@ body {
 .user-group .user-name {
   font-weight: 600;
 }
+
+.greet-container {
+  width: 10vw;
+}
+
+.greet-user-name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.avatar-2-container {
+  background-color: #facc15;
+  border-radius: 50%;
+  height: 50px;
+  width: 60px;
+  grid-row: span 2;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  align-self: center; /* This centers the container itself */
+}
+
+.avatar-2 {
+  height: 30px;
+  width: 40px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 /* Sidebar */
 
 .sidebar {
@@ -193,22 +227,6 @@ body {
   height: 16px;
   width: 16px;
   fill: white;
-}
-
-.avatar-2-container {
-  background-color: #facc15;
-  border-radius: 50%;
-  height: 50px;
-  width: 60px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.avatar-2 {
-  height: 30px;
-  width: 40px;
 }
 
 .main {
