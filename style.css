@@ -140,6 +140,16 @@ body {
   height: 25px;
   width: 30px;
 }
+
+.user-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user-group .user-name {
+  font-weight: 600;
+}
 /* Sidebar */
 
 .sidebar {
