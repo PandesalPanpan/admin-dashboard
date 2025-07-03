@@ -98,6 +98,7 @@ body {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1.5fr 1fr;
   height: 10vh; /* This seems to have no full effect */
+  padding-left: 30px;
 }
 
 .search-group {
@@ -152,12 +153,12 @@ body {
 }
 
 .greet-container {
-  width: 10vw;
+  min-width: 250px;
 }
 
 .greet-user-name {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 9fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -176,6 +177,16 @@ body {
 .avatar-2 {
   height: 30px;
   width: 40px;
+}
+
+.small-text-push-down {
+  font-size: small;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.user-name-2 {
+  font-weight: 600;
 }
 
 .action-buttons {
