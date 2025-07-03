@@ -195,6 +195,16 @@ body {
   align-items: center;
   gap: 15px;
 }
+
+.action-buttons button {
+  background-color: #1992d4;
+  border: 0px solid #1992d4;
+  color: #ffffff;
+  padding: 5px 10px;
+  min-width: 90px;
+  font-size: small;
+  border-radius: 40px;
+}
 /* Sidebar */
 
 .sidebar {
