@@ -90,15 +90,20 @@ body {
 .grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 5.5fr;
 }
 /* Header */
 .header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1.5fr 1fr;
-  height: 10vh; /* This seems to have no full effect */
-  padding-left: 30px;
+  padding-left: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow at the bottom */
+  z-index: 1;
+}
+
+.header-top-row {
+  padding: 5px 25px;
 }
 
 .search-group {
@@ -252,7 +257,8 @@ body {
 }
 
 .main {
-  margin-top: 40px; /* Quick Fix overlapping on top */
+  margin-top: 0px; /* Quick Fix overlapping on top */
+  background-color: #e2e8f0;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
