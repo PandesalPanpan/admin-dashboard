@@ -301,4 +301,23 @@ body {
   padding: 20px;
 }
 
+.card-actions .star {
+  content: url('./img/star-plus-outline.svg');
+  height: 20px;
+  width: 20px;
+}
+
+.card-actions .view {
+  content: url('./img/eye-plus-outline.svg');
+  height: 20px;
+  width: 20px;
+}
+
+.card-actions .share {
+  content: url('./img/share-variant-outline.svg');
+  height: 20px;
+  width: 20px;
+  transform: rotate(90deg);
+}
+
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
