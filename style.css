@@ -90,13 +90,14 @@ body {
 .grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 5.5fr;
+  grid-template-rows: 150px 1fr;
+  height: 100vh;
 }
 /* Header */
 .header {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
   padding-left: 25px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow at the bottom */
   z-index: 1;
@@ -257,8 +258,10 @@ body {
 }
 
 .main {
-  margin-top: 0px; /* Quick Fix overlapping on top */
   background-color: #e2e8f0;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
