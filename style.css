@@ -275,8 +275,13 @@ body {
   gap: 18px;
 }
 
+.projects-container {
+  padding: 20px;
+}
+
 .card {
   background-color: white;
+  border-left: 10px solid #f0b429;
   padding: 10px 25px;
   border-radius: 10px;
 }
@@ -290,6 +295,10 @@ body {
   font-size: 0.8rem;
   color: #6b6b6b;
   line-height: 1.2;
+}
+
+.side-content {
+  padding: 20px;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
