@@ -277,6 +277,19 @@ body {
 
 .card {
   background-color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.card .title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card .content {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  line-height: 1.2;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
