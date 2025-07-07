@@ -260,13 +260,23 @@ body {
 .main {
   background-color: #e2e8f0;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
 .main-subheading {
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.card {
+  background-color: white;
 }
 
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
