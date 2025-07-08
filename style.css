@@ -327,4 +327,19 @@ body {
   gap: 15px;
 }
 
+.announcement-table {
+  background-color: #ffffff;
+}
+
+.announcement-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.announcement-content {
+  font-size: 0.7rem;
+  color: #6b6b6b;
+  line-height: 1.2;
+}
+
 /* https://santosleonardo86.github.io/admin-dashboard/ Really good copy to reference */
