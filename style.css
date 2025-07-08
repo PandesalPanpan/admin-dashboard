@@ -329,6 +329,8 @@ body {
 
 .announcement-table {
   background-color: #ffffff;
+  padding: 24px;
+  border-radius: 20px;
 }
 
 .announcement-title {
