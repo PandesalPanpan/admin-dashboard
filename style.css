@@ -335,6 +335,20 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
 
+.announcement-cell {
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid #dadada;
+}
+
+.announcement-cell:not(:first-child):not(:last-child) {
+  margin: 10px 0px;
+  border-bottom: 1.5px solid #dadada;
+}
+
+.announcement-cell:last-child {
+  border-bottom: none;
+}
+
 .announcement-title {
   font-size: 0.9rem;
   font-weight: 600;
