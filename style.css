@@ -363,6 +363,7 @@ body {
 
 .trending-table {
   display: grid;
+  row-gap: 15px;
   grid-auto-flow: row;
   background-color: #ffffff;
   padding: 24px;
@@ -384,6 +385,17 @@ body {
 .trending-cell .trending-profile {
   grid-row: span 2;
   align-self: center;
+}
+
+.trending-cell .user {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.trending-cell .project {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #878787;
 }
 
 .trending-cell:nth-child(1) .trending-profile {
